@@ -1,0 +1,56 @@
+@media screen and (max-width: 576px){
+  .btn-primary {
+      padding: 15px 25px;
+      font-size: 1.12rem;
+    }
+  .btn-secondary {
+    padding: 15px 25px;
+    font-size: 1.12rem;
+    margin-left: 15px;
+  }
+  .header-container{
+    height: 1228px;
+  }
+  .nav-bar {
+    width: 90%;
+  }
+  .nav-list{
+    display: none;
+  }
+  #hambar{
+    display: block;
+  }
+  .banner{
+    flex-direction: column;
+    width: 90%;
+  }
+  .left-container {
+    max-width: 550px;
+    width: 100%;
+    margin-top: 90px;
+    height: 400px;
+  }
+  .banner-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+  }
+  .shape {
+    font-size: 6.2rem;
+  }
+  #res-btn-none{
+    display: none;
+  }
+  #responsive-btn {
+    display: inline;
+  }
+
+  .right-container {
+    width: 85%;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+        
+}
