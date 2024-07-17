@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+}
+body{
+  background-color: black;
+}
+
+/* Shared Style Here */
+.paragraph{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.90rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.section-header{
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+}
+
+/* Header Style Here  */
+
+
+/* Main Body Style Here  */
+
+
+/* Footer Style Here  */
