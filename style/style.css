@@ -47,7 +47,7 @@
 .header-container{
   max-width: 1980px;
   width: 100%;
-  height: 730px;
+  height: 727px;
   background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(10, 10, 10, 0.9) 100%);
   color: white;
 }
@@ -139,7 +139,6 @@
 }
 /* Change your Habits Section Style Here  */
 .change-your-habits{
-  border: 1px solid red;
   width: 80%;
   margin: 0px auto;
   padding-top: 100px;
@@ -147,23 +146,42 @@
 .habits-header{
   text-align: center;
   width: 700px;
-  border: 1px solid green;
   margin: 0px auto;
 }
 .habits-header p{
   padding: 20px 0px;
 }
+.habits-img-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
 .habits-img-box{
-  width: 20%;
+  width: 100%;
   align-items: center;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 100px;
 }
 .habits-img-box img{
-  padding-bottom: 20px;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #1A1A1A;
+  border-radius: 50%;
+}
+.habits-img-box h3{
+  padding-top: 20px;
 }
 .habits-img-box p{
   padding-top: 10px;
   line-height: 18px;
+}
+/* Run an Extra Mile Easily Section Style Here  */
+.run-an-Extra-mile{
+  margin-top: 100px;
+  border-radius: 15px;
+  background: rgb(34, 34, 34);
+  width: 80%;
+  margin: 0px auto;
 }
 
 /* Footer Style Here  */

@@ -9,8 +9,9 @@
     margin-left: 15px;
   }
   .header-container{
-    height: 1228px;
+    height: 1183.5px;
   }
+    /* Nav Style Here */
   .nav-bar {
     width: 90%;
   }
@@ -20,6 +21,7 @@
   #hambar{
     display: block;
   }
+    /* Banner Style Here  */
   .banner{
     flex-direction: column;
     width: 90%;
@@ -47,10 +49,33 @@
 
   .right-container {
     width: 85%;
-    height: 600px;
-    margin-left: 30px;
+    height: 590px;
+    margin-left: 10px;
     margin-top: 20px;
   }
-
-        
+    .right-container img {
+      width: 340px;
+    }
+/* Change your Habits Section Style Here  */
+    .habits-img-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .change-your-habits {
+      width: 90%;
+      padding-top: 50px;
+    }
+    .habits-header {
+      width: 90%;
+    }
+    .responsive-habit-header{
+      font-size: 1.8rem;
+    }
+    .habits-img-box p {
+      padding: 10px 40px;
+      line-height: 18px;
+    }
+    .habits-img-box {
+     margin-top: 30px;
+     margin-bottom: 20px;
+    }
 }
