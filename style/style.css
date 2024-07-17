@@ -19,7 +19,7 @@
   letter-spacing: 0.5px;
 }
 .section-header{
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 900;
   color: rgb(255, 255, 255);
 }
@@ -142,6 +142,28 @@
   border: 1px solid red;
   width: 80%;
   margin: 0px auto;
+  padding-top: 100px;
+}
+.habits-header{
+  text-align: center;
+  width: 700px;
+  border: 1px solid green;
+  margin: 0px auto;
+}
+.habits-header p{
+  padding: 20px 0px;
+}
+.habits-img-box{
+  width: 20%;
+  align-items: center;
+  text-align: center;
+}
+.habits-img-box img{
+  padding-bottom: 20px;
+}
+.habits-img-box p{
+  padding-top: 10px;
+  line-height: 18px;
 }
 
 /* Footer Style Here  */
