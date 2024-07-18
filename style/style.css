@@ -15,7 +15,7 @@
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.90rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 22px;
   letter-spacing: 0.5px;
 }
 .section-header{
@@ -176,12 +176,30 @@
   line-height: 18px;
 }
 /* Run an Extra Mile Easily Section Style Here  */
-.run-an-Extra-mile{
+.run-an-extra-mile{
   margin-top: 100px;
   border-radius: 15px;
   background: rgb(34, 34, 34);
   width: 80%;
   margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.run-left-container{
+  width: 443px;
+  padding: 40px 55px;
+}
+.run-left-container p{
+  padding: 14px 0px 30px 0px;
+}
+.run-right-container{
+  width: 400px;
+  margin: 35px 10px 20px 140px;
+}
+.run-right-container img{
+  width: 370px;
+  height: 280px;
+  border-radius: 15px;
 }
 
 /* Footer Style Here  */

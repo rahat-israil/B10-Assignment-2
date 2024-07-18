@@ -15,11 +15,15 @@
   .nav-bar {
     width: 90%;
   }
+  .nav-list-container {
+    border: none;
+  }
   .nav-list{
     display: none;
   }
   #hambar{
-    display: block;
+    display: inline;
+    font-size: 30px;
   }
     /* Banner Style Here  */
   .banner{
@@ -77,5 +81,32 @@
     .habits-img-box {
      margin-top: 30px;
      margin-bottom: 20px;
+    }
+    .habits-img-box img {
+      width: 250px;
+      height: 250px;
+    }
+ /* Run an Extra Mile Easily Section Style Here  */
+    .run-an-extra-mile{
+      flex-direction: column;
+      width: 90%;
+      margin-top: 50px;
+    }
+    .run-left-container {
+      width: 85%;
+      padding: 40px 30px 20px 30px;
+    }   
+    #join-btn{
+      padding: 15px 100px;
+    }
+    .run-right-container {
+      width: 90%;
+      margin: 20px;
+    }   
+    .run-right-container img {
+      width: 100%;
+      height: 280px;
+      border-radius: 15px;
+      margin: 0px auto;
     }
 }
