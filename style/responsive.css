@@ -221,4 +221,22 @@
     bottom: 42px;
     left: 43px;
   }
+  /* Footer Style Here */
+  .footer-container {
+    flex-direction: column;
+    width: 82%;
+  }
+  .footer-column-title{
+    word-spacing: 4px;
+  }
+  .footer-left-container {
+    width: 95%;
+    margin-top: 60px;
+  }
+  .custom-btn {
+    padding: 7px 40px;
+  }
+    .Copyright{
+      width: 81%;
+    }
 }
