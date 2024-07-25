@@ -57,9 +57,33 @@
     margin-left: 10px;
     margin-top: 20px;
   }
-    .right-container img {
-      width: 340px;
-    }
+  .right-container img {
+    width: 340px;
+  }
+
+  .left-shadow-box{
+    left: 10px;
+    top: 840px;
+    width: 190px;
+  }
+  .left-content-box .fa-solid {
+    bottom: 40px;
+    margin-left: 15px;
+  }
+  .right-shadow-box{
+    left: 215px;
+    top: 655px;
+    width: 152px;
+  }
+  .right-content-box h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+  } 
+  .right-content-box p {
+    letter-spacing: 0px;
+    font-size: 0.70rem;
+  }
 /* Change your Habits Section Style Here  */
     .habits-img-container {
       grid-template-columns: repeat(1, 1fr);
@@ -234,9 +258,9 @@
     margin-top: 60px;
   }
   .custom-btn {
-    padding: 7px 40px;
+    padding: 10px 40px;
   }
-    .Copyright{
-      width: 81%;
-    }
+  .Copyright{
+    width: 81%;
+  }
 }

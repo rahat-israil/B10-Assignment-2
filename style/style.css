@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 body{
-  max-width: 1980px;
+  max-width: 1460px;
 }
 /* Header Style Here  */
 .header-container{
@@ -53,6 +53,7 @@ body{
   height: 727px;
   background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(10, 10, 10, 0.9) 100%);
   color: white;
+  position: relative;
 }
 /* Nav Style Here */
 .nav-bar{
@@ -133,6 +134,62 @@ body{
   width: 360px;
 }
 
+.left-content-box{
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+.left-content-box .fa-solid{
+  font-size: 20px;
+  position: absolute;
+  bottom: 185px;
+  margin-left: 15px;
+}
+.circle{
+  width: 42px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(230, 83, 60);
+  margin-right: 15px;
+}
+.left-shadow-box{
+  position: absolute;
+  left: 795px;
+  top: 556px;
+  width: 195px;
+  height: 91px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  align-items: center;
+}
+
+.right-shadow-box{
+  position: absolute;
+  left: 1130px;
+  top: 300px;
+  width: 185px;
+  height: 93px;
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+}
+.right-content-box{
+  padding: 15px;
+}
+.right-content-box h2{
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.right-content-box p{
+  letter-spacing: 1px;
+  font-size: 0.80rem;
+}
 /* Main Body Style Here  */
 .main-container{
   width: 100%;
@@ -439,7 +496,7 @@ body{
   margin-bottom: 10px;
 }
 .custom-btn{
-  padding: 7px 40px;
+  padding: 9px 40px;
 }
 
 .Copyright{
