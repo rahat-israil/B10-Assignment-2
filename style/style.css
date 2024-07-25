@@ -31,6 +31,7 @@
   font-size: 1.12rem;
   font-weight: 600;
   border: none;
+  cursor: pointer;
 }
 .btn-secondary{
   border-radius: 42px;
@@ -41,6 +42,7 @@
     font-weight: 600;
     border: 1px solid white;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 /* Header Style Here  */
@@ -280,5 +282,93 @@
   margin-bottom: 40px;
  }
 /* Meet Our Team Section Style Here */
-
+.meet-section-header{
+  width: 700px;
+  text-align: center;
+  margin: 0px auto;
+  margin-top: 90px;
+}
+.meet-section-header p{
+  padding: 15px 0px 20px 0px;
+}
+.meet-image-container{
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  width: 75%;
+  margin: 0px auto;
+  margin-top: 40px;
+  position: relative;
+}
+.meet-team-img{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 12px;
+}
+.meet-team-img img {
+  width: 325px;
+  height: 272px;
+  border-radius: 20px;
+  padding: 10px;
+  opacity: 70%;
+}
+.trainer1 h3{
+  position: absolute;
+  top: 225px;
+  left: 35px;
+}
+.trainer1 p {
+  position: absolute;
+  top: 250px;
+  left: 35px;
+}
+.trainer2 h3{
+  position: absolute;
+    top: 225px;
+    left: 387px;
+}
+.trainer2 p{
+  position: absolute;
+    top: 250px;
+    left: 392px;
+}
+.trainer3 h3{
+  position: absolute;
+    top: 225px;
+    left: 740px;
+}
+.trainer3 p{
+  position: absolute;
+    top: 250px;
+    left: 742px;
+}
+.trainer4 h3{
+  position: absolute;
+    bottom: 70px;
+    left: 35px;
+}
+.trainer4 p{
+  position: absolute;
+    bottom: 48px;
+    left: 35px;
+}
+.trainer5 h3{
+  position: absolute;
+    bottom: 70px;
+    left: 390px;
+}
+.trainer5 p{
+  position: absolute;
+    bottom: 48px;
+    left: 392px;
+}
+.trainer6 h3{
+  position: absolute;
+    bottom: 70px;
+    left: 740px;
+}
+.trainer6 p{
+  position: absolute;
+    bottom: 48px;
+    left: 742px;
+}
 /* Footer Style Here  */

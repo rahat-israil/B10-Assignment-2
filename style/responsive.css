@@ -123,7 +123,7 @@
   }
   .bmi-left-container {
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 40px;
   }
   .input-field input,select {
     width: 80%;
@@ -140,7 +140,85 @@
   }
   .bmi-right-container {
     width: 80%;
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 10px;
+  }
+/* Meet Our Team Section Style Here */
+  .meet-section-header {
+    width: 91%;
+    margin-top: 80px;
+  }
+  .meet-section-header p {
+    padding: 15px 10px 20px 10px;
+  }
+  .meet-image-container {
+    width: 90%;
+  }
+  .meet-team-img {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 15px;
+  }
+  .meet-team-img img {
+    width: 93%;
+  }
+  .trainer1{
+    display: none;
+  }
+  .trainer2 h3 {
+    position: absolute;
+    /* top: 530px; */
+    top: 225px;
+    left: 40px;
+  }
+  .trainer2 p {
+    position: absolute;
+    /* top: 552px; */
+    top: 250px;
+    left: 43px;
+  }
+  .trainer3 h3 {
+    position: absolute;
+    /* top: 830px; */
+    top: 530px;
+    left: 40px;
+  }
+  .trainer3 p {
+    position: absolute;
+    /* top: 852px; */
+    top: 552px;
+    left: 43px;
+  }
+  .trainer4{
+    display: none;
+  }
+  /* .trainer4 h3 {
+    position: absolute;
+    bottom: 660px;
+    left: 40px;
+  }
+  .trainer4 p {
+    position: absolute;
+    bottom: 638px;
+    left: 43px;
+  } */
+  .trainer5 h3 {
+    position: absolute;
+    bottom: 360px;
+    left: 40px;
+  }
+  .trainer5 p {
+    position: absolute;
+    bottom: 338px;
+    left: 43px;
+  }
+  .trainer6 h3 {
+    position: absolute;
+    bottom: 64px;
+    left: 40px;
+  }
+  .trainer6 p {
+    position: absolute;
+    bottom: 42px;
+    left: 43px;
   }
 }
