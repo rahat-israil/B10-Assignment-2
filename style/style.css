@@ -340,7 +340,7 @@ body{
  }
 /* Meet Our Team Section Style Here */
 .meet-our-team{
-  padding-bottom: 90px;
+  margin-bottom: 70px;
 }
 .meet-section-header{
   width: 700px;
@@ -430,6 +430,66 @@ body{
   position: absolute;
     bottom: 48px;
     left: 742px;
+}
+/* Membership Plan Section Style Here */
+.membership-header{
+  width: 650px;
+  text-align: center;
+  margin: 0px auto;
+}
+.plan-container{
+  width: 75%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+  margin-top: 50px;
+}
+.plan-description{
+  padding-top: 15px;
+}
+.plan-container-1, .plan-container-4{
+  width: 20%;
+  height: 350px;
+  border-radius: 12px;
+  padding: 30px 20px;
+  margin-top: 70px;
+}
+.plan-container-2, .plan-container-3{
+width: 20%;
+height: 492px;
+border-radius: 12px;
+padding: 30px 20px;
+}
+.plan-container-1{
+  background-color: #1b56a6;
+  box-shadow: 5px 5px 15px #1b56a6;
+}
+.plan-price{
+  padding-top: 10px;
+}
+.price-range{
+  font-size: 2.5rem;
+}
+.list-item{
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.list-item li{
+  padding-top: 10px;
+}
+.plan-container-2 {
+  background-color: #a21ba6;
+  box-shadow: 5px 5px 15px #a21ba6;
+}
+.plan-container-3 {
+  background-color: lightseagreen;
+  box-shadow: 5px 5px 15px lightseagreen;
+}
+.plan-container-4{
+  background-color: blueviolet;
+  box-shadow: 5px 5px 15px blueviolet;
 }
 /* Footer Style Here  */
 .footer{

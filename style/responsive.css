@@ -245,6 +245,29 @@
     bottom: 42px;
     left: 43px;
   }
+/* Membership Plan Section Style Here */
+  .membership-header {
+    width: 90%;
+  }
+  .plan-container {
+    width: 90%;
+    flex-direction: column;
+    padding-bottom: 80px;
+    margin-top: 50px;
+  }
+  .plan-container-1, .plan-container-4 {
+    width: 85%;
+    height: 350px;
+    margin: 0px auto;
+    margin-top: 30px;
+  }
+  .plan-container-2, .plan-container-3 {
+    width: 85%;
+    height: 415px;
+    margin: 0px auto;
+    border-radius: 12px;
+    margin-top: 30px;
+  }
   /* Footer Style Here */
   .footer-container {
     flex-direction: column;
