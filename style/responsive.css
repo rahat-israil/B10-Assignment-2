@@ -9,7 +9,8 @@
     margin-left: 15px;
   }
   .header-container{
-    height: 1183.5px;
+    /* height: 1183.5px; */
+    height: 1157.5px;
   }
     /* Nav Style Here */
   .nav-bar {
@@ -53,12 +54,14 @@
 
   .right-container {
     width: 85%;
-    height: 590px;
+    /* height: 590px; */
+    height: 555px;
     margin-left: 10px;
     margin-top: 20px;
   }
   .right-container img {
-    width: 340px;
+    /* width: 340px; */
+    width: 325px;
   }
 
   .left-shadow-box{
@@ -70,10 +73,10 @@
     bottom: 40px;
     margin-left: 15px;
   }
-  .right-shadow-box{
-    left: 215px;
-    top: 655px;
-    width: 152px;
+  .right-shadow-box {
+    left: 206px;
+    top: 659px;
+    width: 163px;
   }
   .right-content-box h2 {
     font-size: 2rem;
@@ -126,6 +129,7 @@
     .run-right-container {
       width: 90%;
       margin: 20px;
+      padding: 0px;
     }   
     .run-right-container img {
       width: 100%;

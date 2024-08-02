@@ -45,7 +45,7 @@
     cursor: pointer;
 }
 body{
-  max-width: 1460px;
+  max-width: 1450px;
 }
 /* Header Style Here  */
 .header-container{
@@ -79,6 +79,7 @@ body{
 .nav-list{
   display: flex;
   gap: 40px;
+  cursor: pointer;
 }
 .list{
   padding: 13px 0px;
@@ -127,7 +128,7 @@ body{
 .right-container{
  width: 25%;
  height: 530px;
- margin-left: 170px;
+ margin-left: 173px;
  margin-top: 20px;
 }
 .right-container img{
@@ -221,6 +222,10 @@ body{
   margin-top: 30px;
   margin-bottom: 100px;
 }
+.habits-img-box p{
+  padding: 15px;
+  margin-top: 5px;
+}
 .habits-img-box img{
   width: 200px;
   height: 200px;
@@ -253,7 +258,7 @@ body{
 }
 .run-right-container{
   width: 400px;
-  margin: 35px 10px 20px 140px;
+  padding: 43px 10px 20px 140px;
 }
 .run-right-container img{
   width: 370px;
@@ -506,6 +511,9 @@ padding: 30px 20px;
 .footer-left-container{
   width: 42%;
   margin-top: 60px;
+}
+.footer-left-container p{
+  padding-right: 50px;
 }
 .footer-title{
   color: rgb(230, 83, 60);
