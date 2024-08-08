@@ -19,7 +19,7 @@
   letter-spacing: 0.5px;
 }
 .section-header{
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 900;
   color: rgb(255, 255, 255);
 }
@@ -169,8 +169,8 @@ body{
 
 .right-shadow-box{
   position: absolute;
-  left: 1130px;
-  top: 300px;
+  left: 1122px;
+  top: 265px;
   width: 185px;
   height: 93px;
   box-sizing: border-box;
@@ -256,9 +256,12 @@ body{
 .run-left-container p{
   padding: 14px 0px 30px 0px;
 }
+#join-btn{
+  padding: 15px 60px;
+}
 .run-right-container{
   width: 400px;
-  padding: 43px 10px 20px 140px;
+  padding: 40px 10px 20px 140px;
 }
 .run-right-container img{
   width: 370px;
@@ -326,9 +329,15 @@ body{
   height: 45px;
   border-radius: 8px;
   border: none;
-    background: rgba(255, 255, 255, 0.1);
-    color: grey;
-    padding-left: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  color: grey;
+}
+.input-field input {
+  padding-left: 25px;
+  width: 254px;
+}
+.input-field select{
+  padding-left: 21px;
 }
 .Sex{
   width: 280px;
@@ -342,6 +351,11 @@ body{
   margin-top: 15px;
   width: 588px;
   margin-bottom: 40px;
+  padding-left: 20px;
+ }
+ .custom-calculate-btn{
+  padding-left: 60px;
+  padding-right: 60px;
  }
 /* Meet Our Team Section Style Here */
 .meet-our-team{
@@ -438,7 +452,7 @@ body{
 }
 /* Membership Plan Section Style Here */
 .membership-header{
-  width: 650px;
+  width: 700px;
   text-align: center;
   margin: 0px auto;
 }
@@ -455,7 +469,7 @@ body{
 }
 .plan-container-1, .plan-container-4{
   width: 20%;
-  height: 350px;
+  height: 360px;
   border-radius: 12px;
   padding: 30px 20px;
   margin-top: 70px;
@@ -522,50 +536,20 @@ padding: 30px 20px;
     padding-bottom: 25px;
 }
 .footer-column-title{
-  font-size: 1.6rem;
-  margin-top: 40px;
-  padding-bottom: 20px;
+  font-size: 2.3rem;
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
-.social-media{
-  display: flex;
-  align-items: center;
-  padding-top: 15px;
+.footer-column-subtitle{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.4rem;
+  font-weight: 400;
+  padding-left: 4px;
 }
-.fa-brands{
-  font-size: 30px;
-  width: 35px;
-  color: rgb(230, 83, 60);
+.footer-column-subtitle p{
+  padding-top: 16px;
 }
-.media-text{
-  padding-left: 20px;
-  text-align: left;
-}
-.text-decoration{
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 1.1rem;
-}
-.text-decoration:hover{
-  color: limegreen;
-}
-/* Right Container  */
-.common {
-  border-radius: 3px;
-  background: whitesmoke;
-  height: 45px;
-  width: 90%;
-  border: none;
-  padding: 0px 0px 0px 27px;
-  margin-bottom: 15px;
-}
-.box-style {
-  height: 100px;
-  padding-top: 20px;
-  margin-bottom: 10px;
-}
-.custom-btn{
-  padding: 9px 40px;
-}
+
 
 .Copyright{
   text-align: center;
