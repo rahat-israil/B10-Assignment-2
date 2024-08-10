@@ -126,14 +126,17 @@
       padding: 40px 30px 20px 30px;
     }  
     .run-left-container button{
-      margin-left: 20px;
+      /* margin-left: 7%; */
+      width: 100%;
     }
     #join-btn{
-      padding: 15px 100px;
+      padding: 15px 70px;
     }
     .run-right-container {
-      width: 90%;
-      margin: 20px;
+      width: 88%;
+      margin: 20px auto;
+      margin-top: 10px;
+      /* margin: 20px; */
       padding: 0px;
     }   
     .run-right-container img {
@@ -200,56 +203,53 @@
     padding: 15px;
   }
   .meet-team-img img {
-    width: 93%;
+    width: 94%;
+    margin: 0px auto;
   }
   .trainer1{
     display: none;
   }
+  .trainer3{
+    order: 3;
+  }
+  .trainer5{
+    order: 2;
+  }
+  .trainer6{
+    order: 4;
+  }
   .trainer2 h3 {
     position: absolute;
-    /* top: 530px; */
     top: 225px;
     left: 40px;
   }
   .trainer2 p {
     position: absolute;
-    /* top: 552px; */
     top: 250px;
     left: 43px;
   }
   .trainer3 h3 {
     position: absolute;
-    /* top: 830px; */
-    top: 530px;
+    top: 830px;
     left: 40px;
   }
   .trainer3 p {
     position: absolute;
-    /* top: 852px; */
-    top: 552px;
+    top: 852px;
     left: 43px;
   }
   .trainer4{
     display: none;
   }
-  /* .trainer4 h3 {
-    position: absolute;
-    bottom: 660px;
-    left: 40px;
-  }
-  .trainer4 p {
-    position: absolute;
-    bottom: 638px;
-    left: 43px;
-  } */
+
   .trainer5 h3 {
     position: absolute;
-    bottom: 360px;
+    top: 530px;
     left: 40px;
   }
   .trainer5 p {
     position: absolute;
-    bottom: 338px;
+    top: 552px;
     left: 43px;
   }
   .trainer6 h3 {
